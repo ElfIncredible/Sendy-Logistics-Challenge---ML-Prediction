@@ -10,7 +10,12 @@ This project applies a data-driven approach to smart energy supply scheduling, l
     - [Data Merging](#data-merging)
     - [Data Cleaning](#data-cleaning)
     - [Feature Engineering](#feature-engineering)
-    - 
+    - [Correlation Analysis](#correlation-analysis)
+    - [Data Preparation for Modeling](#data-preparation-for-modeling)
+    - [Model Development](#model-development)
+    - [Model Evaluation](#model-evaluation)
+    - [Predictions and Submission Preparation](#predictions-and-submission-preparation)
+    - [Visualizations](#visualizations)
 
 ## Project Overview
 The project applies a data-driven approach to smart energy supply scheduling, leveraging historical energy data to predict future usage and create cost-efficient energy strategies for sustainable telecom networks.
