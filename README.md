@@ -1,5 +1,5 @@
 # Sendy Logistics Challenge - ML Prediction
-This project applies a data-driven approach to smart energy supply scheduling, leveraging historical energy data to predict future usage and create cost-efficient energy strategies for sustainable telecom networks.
+This challenge not only aims to enhance logistical efficiency but also seeks to create more accessible and affordable delivery solutions for businesses in Africa. A successful submission will significantly contribute to improving logistics in the region.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -19,13 +19,30 @@ This project applies a data-driven approach to smart energy supply scheduling, l
 - [Impact](#impact)
 
 ## Project Overview
-The project applies a data-driven approach to smart energy supply scheduling, leveraging historical energy data to predict future usage and create cost-efficient energy strategies for sustainable telecom networks.
+The Sendy Logistics Challenge focuses on predicting the estimated time of arrival (ETA) for motorbike deliveries in Nairobi. The aim is to improve the efficiency of logistics in Sub-Saharan Africa, where high transportation costs can significantly impact the economy.
+
+**Overview**
+- **Purpose:** Predict delivery times from the moment a driver picks up a package until it reaches the destination.
+- **Goal:** Enhance customer communication, improve service reliability, and achieve cost savings through better resource management.
 
 ## Problem Statement
 The problem statement for this project involves addressing the challenge of optimizing energy usage across telecom sites powered by multiple sources: grid, diesel, and solar energy. The task requires developing a machine-learning model capable of predicting the optimal energy source at each time step while minimizing overall costs. Additionally, the solution must maintain battery capacity above a set threshold to ensure continuous operation. The problem is complex due to the fluctuating availability of renewable energy and varying energy costs, requiring a robust strategy for cost-effective energy allocation.
 
 ## Dataset
-The [dataset](https://zindi.africa/competitions/sendy-logistics-challenge/data) used in the project includes energy usage data across multiple telecom sites, each powered by grid, diesel, and solar energy sources. It contains variables such as energy output (kWh), solar zenith angle, relative humidity, battery charge and discharge coefficients, and grid outage plans. Additionally, site-specific attributes like battery capacity, rated voltage, and diesel power output are included. The dataset spans various time periods, making it well-suited for predicting energy consumption patterns and optimizing the energy mix for minimizing operational costs while maintaining battery health.
+**Data Description**
+- **Training Dataset:** A subset of over 20,000 direct orders for motorbike deliveries, fully anonymized with weather data included.
+- **Files Provided:**
+    - Train.csv: Data for training your model.
+    - Test.csv: Data for testing your model.
+    - Riders.csv: Information about unique riders, including their performance metrics.
+    - VariableDefinitions.csv: Definitions for the variables used in the datasets.
+
+**Key Variables in Datasets**
+- **Order Details:**
+    - Order No: Unique identifier for each order.
+    - User Id: Unique identifier for each customer.
+    - Vehicle Type: Currently limited to bikes.
+    - Other features relevant to the delivery context, such as pickup and drop-off locations, times, and rider metrics.
 
 ## Machine Learning
 ### Data Loading and Exploration
