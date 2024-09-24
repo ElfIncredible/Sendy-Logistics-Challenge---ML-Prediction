@@ -29,7 +29,7 @@ The Sendy Logistics Challenge focuses on predicting the estimated time of arriva
 The problem statement for this project involves addressing the challenge of optimizing energy usage across telecom sites powered by multiple sources: grid, diesel, and solar energy. The task requires developing a machine-learning model capable of predicting the optimal energy source at each time step while minimizing overall costs. Additionally, the solution must maintain battery capacity above a set threshold to ensure continuous operation. The problem is complex due to the fluctuating availability of renewable energy and varying energy costs, requiring a robust strategy for cost-effective energy allocation.
 
 ## Dataset
-**Data Description**
+**[Data](https://zindi.africa/competitions/sendy-logistics-challenge) Description**
 - **Training Dataset:** A subset of over 20,000 direct orders for motorbike deliveries, fully anonymized with weather data included.
 - **Files Provided:**
     - Train.csv: Data for training your model.
